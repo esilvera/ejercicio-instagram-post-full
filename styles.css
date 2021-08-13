@@ -1,0 +1,49 @@
+body {
+	background: black;
+}
+
+.instagram {
+	background: white;
+    width: 500px;
+    margin: 0;
+}
+.instagram .instagram-header {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+.instagram .instagram-header .logo-html5 {
+    padding-left: 5px;
+    margin-top: 5px;
+    float: left;
+}
+.instagram .instagram-header .logo-puntos {
+    padding-right: 5px;
+    float: right;
+}
+.instagram .instagram-header .titulos {
+    padding-bottom: 10px;
+    float: left;
+}
+.instagram .instagram-header .titulos p {
+    padding: 0;
+    margin: 0;
+}
+.instagram .iconos {
+    overflow: auto;  /* Evita desborde del contener iconos y afecte a .instagram-footer*/
+    width: 100%;
+}
+.instagram .iconos .logos-izquierda {
+    float: left;
+    padding: 5px;
+}
+.instagram .iconos .logos-derecha {
+    float: right;
+    text-align: right;
+    padding: 5px;
+}
+.instagram-footer {
+    padding: 10px;
+}  
+  
+
